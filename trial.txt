@@ -1,1 +1,2 @@
 this is a trail text for checking the triggers
+this is second line of the triggers
