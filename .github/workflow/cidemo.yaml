@@ -1,0 +1,14 @@
+name: task1
+on: 
+  push:
+    branches:
+     - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - name: checkout-step
+       uses: actions/checkout@v4
+     - name: printing step
+       run: echo "CI triggering"
